@@ -18,7 +18,7 @@
     min-height: 50%;
   }
 
-.disclaimer {
+disclaimer {
   font-size: 11px;
   font-family: 'Perfect DOS VGA 437', sans-serif;
   color: #880808;
@@ -28,4 +28,17 @@
 
 
 }
+
+comingsoon {
+  font-size: 24px;
+  font-family: 'Perfect DOS VGA 437', sans-serif;
+  color: #880808;
+  position: absolute;
+  bottom: 50%;
+    left: 50%;
+  z-index: 1;
+
+
+}
+    
     
