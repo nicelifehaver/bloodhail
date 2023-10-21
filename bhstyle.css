@@ -6,6 +6,7 @@
     left: -50%; 
     width: 200%; 
     height: 200%;
+    
   }
   .bg img {
     position: absolute; 
@@ -16,9 +17,10 @@
     margin: auto; 
     min-width: 50%;
     min-height: 50%;
+    
   }
 
-disclaimer {
+.disclaimer {
   font-size: 11px;
   font-family: 'Perfect DOS VGA 437', sans-serif;
   color: #880808;
@@ -29,7 +31,7 @@ disclaimer {
 
 }
 
-comingsoon {
+.comingsoon {
   font-size: 19px;
   font-family: 'Perfect DOS VGA 437', sans-serif;
   color: #880808;
