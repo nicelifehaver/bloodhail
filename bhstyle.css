@@ -42,5 +42,17 @@
 
 
 }
+
+input {
+  font-size: 19px;
+  font-family: 'Perfect DOS VGA 437', sans-serif;
+  color: #880808;
+  position: absolute;
+  bottom: 50%;
+  z-index: 1;
+  left: 45%;
+
+
+}
     
     
