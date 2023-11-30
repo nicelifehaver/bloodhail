@@ -7,6 +7,23 @@
 <img draggable="false" (dragstart)="false;" src="assets/bhbg.png" alt="">
          </div>
  <div class="disclaimer"> This website has no affiliation with Have a Nice Life or The Flenser... </div>
-   <div class="comingsoon"> Website to be updated soon...</div>
+   <div class="seventh">
+        <input type="text" id="phraseInput" placeholder="Submit.">
+    <button onclick="checkPhrase()">Submit</button>
+   </div>
+     <script>
+        function checkPhrase() {
+            // Get the input value
+            var enteredPhrase = document.getElementById("phraseInput").value.toLowerCase();
+
+            // Check if the entered phrase matches the desired phrase
+            if (enteredPhrase === "whataglorioussetofstairs") {
+                // Redirect to another page
+                window.location.href = "welcome.html";
+            } else {
+                alert("Incorrect phrase. Please try again.");
+            }
+        }
+    </script>
 </body>
 </html>
